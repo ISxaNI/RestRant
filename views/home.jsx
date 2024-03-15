@@ -6,7 +6,7 @@ function home () {
       <Def>
           <main>
               <h1>HOME</h1>
-              <img src="./images/Ladle.jpg" alt="ladle noodle" />
+              <img src="./images/Ladle.jpg" alt="ladle noodle" height="400px" width="400px" />
               <p>Photo by Piotr Miazga on Unsplash</p>
               <a href="/places">
               <button className="btn-primary">Places Page</button>
