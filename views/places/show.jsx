@@ -12,6 +12,14 @@ function show (data) {
             <h3>Located in {data.city}, {data.state}</h3>
             <h2>Comments</h2>
             <h3>No Comments Yet!</h3>
+            <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
+              Edit
+            </a>  
+            <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
+              <button type="submit" className="btn btn-danger">
+                Delete
+              </button>
+            </form>     
           </main>
         </Def>
     )
