@@ -10,6 +10,7 @@ function show (data) {
             <h2>Rating</h2>
             <h3>Not Rated</h3>
             <h2>Description</h2>
+            <h3>{data.place.cuisines}</h3>
             <h3>Located in {data.place.city}, {data.place.state}</h3>
             <h2>Comments</h2>
             <h3>No Comments Yet!</h3>
