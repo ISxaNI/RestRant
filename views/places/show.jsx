@@ -12,7 +12,7 @@ function show (data) {
             <h3>{data.place.showEstablished()}</h3>
             <h3>Serving {data.place.cuisines}</h3>
             <img src={data.place.pic} alt={data.place.name} />
-            <h3>{Located in {data.place.city}, {data.place.state}}</h3>
+            <h3>Located in {data.place.city}, {data.place.state}</h3>
             <h2>Comments</h2>
             <h3>No Comments Yet!</h3>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
